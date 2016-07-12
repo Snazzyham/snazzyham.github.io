@@ -36,3 +36,18 @@
 .nowrap {
   white-space: nowrap;
 }
+
+//custom scss, not basscss
+.inline-block {
+  display: inline-block;
+}
+//mobile first thats why its 1 col
+.three-col {
+  columns: 1;
+}
+
+.col-fix {
+  width:13em;
+  float:left;
+  padding: 1rem;
+}

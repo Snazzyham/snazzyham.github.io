@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       About Soham Adwani
+email:       snazzyham@gmail.com
+author:      Soham Adwani
+description: "A web designer and developer based in Melbourne and Jakarta."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://snazzyham.com"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -17,7 +17,7 @@ google_tag_manager:
 bing_verification:
 
 # Optional features
-animated:             false
+animated:             true
 show_related_posts:   false
 show_post_footers:    false
 show_social_icons:    false
@@ -37,10 +37,10 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: snazzyham
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: snazzyham
 skype_username:
 steam_nickname:
 google_plus_id:
@@ -52,12 +52,12 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
+share_facebook: true
+share_twitter: true
 share_googleplus: false
-share_linkedin: false
+share_linkedin: true
 share_digg: false
 share_tumblr: false
 share_reddit: false
@@ -87,14 +87,14 @@ text:
     coming_soon: 'Coming soon...'
   contact:
     email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
+    content:  'So tell me what you want what you really really want'
+    subject:  'Coffee maybe?'
+    submit:   'Fire Away!'
     ajax:
       sending:  'sending..'
       sent:     'Message sent!'
-      error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+      error:    'Womp womp, something seems to be wrong here. Can you try again please?'
+  thanks: 'My phone buzzed so I got your message!'
   og_locale: 'en_US'
 
 # Build settings
@@ -102,11 +102,13 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     10
+paginate_path: '/writing/page:num'
 sass:
   compressed: true
 gems:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]

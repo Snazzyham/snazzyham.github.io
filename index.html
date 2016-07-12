@@ -1,28 +1,23 @@
 ---
-layout: default
+layout: homepage 
 ---
-{% assign posts_count = (paginator.posts | size) %}
+
 
 <div class="home">
-  {% if posts_count > 0 %}
-    <div class="posts">
-      {% for post in paginator.posts %}
-        <div class="post py3">
-          <p class="post-meta">{{ post.date | date: site.date_format }}</p>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
-          <p class="post-summary">
-            {% if post.summary %}
-              {{ post.summary }}
-            {% else %}
-              {{ post.excerpt }}
-            {% endif %}
-          </p>
-        </div>
-      {% endfor %}
-    </div>
+  <div class="w-60-ns mt5-ns ml5-ns">
+    <span class="f1 b">Hi, I'm Soham, A web developer and design engineer.</span>
+    <img class="burger-image" src="https://media.giphy.com/media/26FPtuzaNu0TF51io/giphy.gif" alt="" />
+  </div>
+  <div class="w-40-ns mt4 ml6-ns">
+        <p>I&#39;m a Front-End Engineer at <a href="http://wearepercolate.com">Percolate Galactic</a> and a student at La Trobe University. You can take a look at my resume <a href="https://www.dropbox.com/s/trshhbj2d7dh7yt/SohamAdwani_2016_Australia.pdf?dl=0">here</a>. </p>
 
-    {% include pagination.html %}
-  {% else %}
-    <h1 class='center'>{{ site.text.index.coming_soon }}</h3>
-  {% endif %}
+        <p>I&#39;m also a writer on the side, because it&#39;s something I enjoy. I&#39;ve written for Thomson Reuters, Forbes, Tech in Asia and The Jakarta Globe. You can find some of my writing <a href="http://sohamadwani.contently.com">here</a>. </p>
+
+        <p>I&#39;ve built a markdown editor known as <a href="http://simpledown.snazzyham.com">Simpledown</a>, as well as <a href="http://snazzyham.com/portfolio.html">a couple of other things</a>. I&#39;m an advocate for clean and functional design, with a focus on mobile-first and Atomic CSS.  </p>
+
+        <p>I&#39;m also a <a href="http://flickr.com/snazzyham">a fan of photography</a> and I really enjoy hookah. I <a href="http://youtube.com/technocastle69">used to make youtube videos</a>, and I still do, when I have the time. </p>
+
+        <p><a href="mailto:snazzyham@gmail.com">Email me</a> if you&#39;d like to talk or go grab a coffee, I&#39;m always up to meeting new people.</p>
+
+  </div>
 </div>

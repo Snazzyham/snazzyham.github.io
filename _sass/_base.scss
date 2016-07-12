@@ -16,6 +16,7 @@ MIT License http://opensource.org/licenses/MIT
 html, body {
   height: auto;
   min-height: 100%;
+  background-color: #fdfdfd;
 }
 
 img {
@@ -31,4 +32,8 @@ body {
           box-sizing: border-box;
      -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+}
+
+.burger-image {
+  display: none;
 }

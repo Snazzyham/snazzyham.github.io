@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Say Hello
+title: Contact
 permalink: /contact/
 tags: contact
 ---
@@ -14,14 +14,24 @@ tags: contact
       <button type='submit' class="button button-blue button-big mobile-block">{{ site.text.contact.submit }}</button>
     </form>
   {% else %}
+  <h4 class="h4">Let's meet up</h4>
+  <p class="h4">
+    I'm always down to meet new people and talk about design, development or how bad the latest season of Arrow has been.
+  </p>
+  <br>
+  <p class="h4">Send me an email: snazzyham [at] gmail . com
+    <br>
+  or just use the form below.
+  </p>
     <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked">
       <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email }}">
       <textarea type="text" name="content" class="field-light" rows="5" placeholder="{{ site.text.contact.content }}"></textarea>
       <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks/" />
       <input type="hidden" name="_subject" value="{{ site.text.contact.subject }}" />
       <input type="text" name="_gotcha" style="display:none" />
-      <input type="submit" class="button button-blue button-big mobile-block" value="{{ site.text.contact.submit }}">
+      <input type="submit" class="btn btn--black btn--full btn--m right" value="{{ site.text.contact.submit }}">
     </form>
+
   {% endif %}
 </div>
 
