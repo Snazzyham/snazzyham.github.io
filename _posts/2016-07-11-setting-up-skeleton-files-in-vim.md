@@ -3,7 +3,7 @@ title: Setting up skeleton files with Vim
 layout: post
 ---
  
-Vim, for those of you who use it _(I mean if you don't use it this article probably has no use to you)_, is actually a pretty powerful tool. I've been using it on and off lately, and I'm still trying to get the hang of it myself.   
+Vim, for those of you who use it _(I mean if you don't use it this article probably is of no use to you)_, is actually a pretty powerful tool. I've been using it on and off lately, and I'm still trying to get the hang of it myself.   
 
 I've been trying to make the switch from Atom, but one of the main things that holds me back is that I'm a lot faster in Atom. So I decided that step by step, I'm going to start trying to figure out how to do stuff in Vim that I usually do in Atom, the first of those was skeleton files. What I mean by this is that usually when I'm starting up an html file, I type `html5-` in Atom, hit enter and I get this;
 
