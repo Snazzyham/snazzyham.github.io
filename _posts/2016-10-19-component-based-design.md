@@ -24,4 +24,4 @@ I was first introduced to the idea of component driven design when I was learnin
 Now immediately after looking at this example, the most obvious benefit should make itself apparent to you. To define this benefit, I'm going to borrow a term from database design; **Data Integrity**. What this means is that by only having your data in one place _(and not multiple footers spread across multiple files)_, you assure that the same data is presented across the web page. In addition to that, this makes it easier for the developer, because you only have to edit the content once. Really, why wouldn't you be doing this? 
 
 ### Drawbacks
-Sure, if you're using PHP, this should be the way you structure your files. Anything else is inefficient. However if you weren't planning on using PHP, HTML didn't really have any way of seperating your files into components. 
+Sure, if you're using PHP, this should be the way you structure your files. Anything else is inefficient. However if you weren't planning on using PHP, HTML didn't really have any way of seperating your files into components. For smaller, less

@@ -17,6 +17,7 @@ subhead: Here you will find a collection of my work, be it in design or developm
 <li class="col-fix"><a href='http://imagination.co.id'>Imagination Fragrances</a><br>E-Commerce portal build & website design</li>
 <li class="col-fix"><a href='/swm'>Sleep With Me</a><br>Logo design and brand identity</li>
 <li class="col-fix"><a href='/majesty'>Majesty Communications</a><br>Website Design</li>
+<li class="col-fix"><a href='http://olehkarmono.com'>OLEHKARMONO</a><br>A website built as part of Percolate Galactic's CSR project.</li>
 <li class="col-fix"><a href='/tandoor'>Tandoor Gaming</a><br>Logo & YouTube Art</li>
 <li class="col-fix"><a href='http://rabelais.com.au'>Rabelais Magazine</a><br>Website Optimisation</li>
 <li class="col-fix"><a href='http://emcindonesia.com'>EMC Indonesia</a><br>Website Maintenance</li>
