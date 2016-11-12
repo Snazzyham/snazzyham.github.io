@@ -1,0 +1,54 @@
+/* list stuff */ 
+
+.portfolio-list li {
+  padding: 1em;
+  width: 250px;
+	height: 100px;
+
+  @media screen and (max-width: 768px) {
+    height: auto;
+  }
+
+  @media screen and (max-width: 450px) {
+  }
+}
+
+.portfolio-list {
+	padding: 0;
+	margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  width: 980px;
+
+  @media screen and (max-width: 768px) {
+    width: 600px;
+  }
+
+  @media screen and (max-width: 450px) {
+    width: auto;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+ .portfolio-list li {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-list {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .portfolio-list {
+    width: 960px;
+  }
+}
+*/
