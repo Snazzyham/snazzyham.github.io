@@ -3,15 +3,10 @@
 ---
 @charset "UTF-8";
 
-/*!
-* Pixyll - A simple, beautiful Jekyll theme that's mobile first.
-* @author John Otander <johnotander@gmail.com> (http://johnotander.com/)
-* @link https://github.com/johnotander/pixyll
-* @license MIT
-*/
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 @import 'variables';
 
+@import 'custom';
 @import 'basscss';
 
 @import 'base';
