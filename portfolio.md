@@ -8,7 +8,7 @@ subhead: Here's some stuff I've done.<br>You can also find my work on <a href='h
 <ul class="list-reset portfolio-list">
 <li class=""><a href='https://medium.com/disected-durian/a-new-home-for-percolate-galactic-1f9fbd6cf974#.pm3qggv2n'>Percolate Galactic</a><br>Percolate's homepage redesign</li>
 <li class=""><a href='http://simpledown.adwani.info'>Simpledown</a><br>A markdown app, built for the web</li>
-<li class=""><a href='http://github.com/snazzyham/chron'>Chron</a><br>A Single Page Vue.JS Invoicing and Stock Management System.</li>
+<li class="">InStock<br>An Invoicing and Stock Management System built with Vue.JS.</li>
 <li class=""><a href='https://oddamatic.com'>Oddamatic</a><br>A proof of concept web-app, currently in beta.</li>
 <li class=""><a href='http://metrobe.info'>Metrobe</a><br>A better public transport app, built for La Trobe University</li>
 <li class=""><a href='http://snazzyham.com/text-gradients'>text-gradients</a><br>A CSS library to add gradients to text.</li>
