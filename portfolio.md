@@ -24,7 +24,7 @@ subhead: Here's some stuff I've done.<br>You can also find my work on <a href='h
 <li class=""><a href='/tandoor'>Tandoor Gaming</a><br>Logo & YouTube Art</li>
 <li class=""><a href='http://rabelais.com.au'>Rabelais Magazine</a><br>Website Optimisation</li>
 <li class=""><a href='http://emcindonesia.com'>EMC Indonesia</a><br>Website Maintenance</li> -->
-<li class=""><a href='http://afestivalaboutcoffee.com'>A Festival About Coffee</a><br>Website Design</li>
+<li class=""><b>Top Secret Stuff</b><br><em>It's all hush hush</em></li>
 <!-- <li class=""><a href='http://georgepritting.info'>George Pritting</a><br>A website for a guy with ALS</li> -->
 <!-- <li class=""><a href='http://'>Darah Muda</a><br></li> -->
 <!-- <li class=""><a href='http://'>Percojobs</a><br></li> -->
