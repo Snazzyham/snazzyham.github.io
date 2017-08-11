@@ -1,7 +1,8 @@
 // Typography
 $base-font-size: 16px !default;
 $bold-font-weight: bold !default;
-$font-family: 'Roboto Mono', 'Menlo', monospace;
+$font-family: 'avenir next', -apple-system, BlinkMacSystemFont,
+              roboto, helvetica, sans-serif;
 $line-height: 1.625 !default;
 $heading-font-family:  -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
@@ -44,6 +45,7 @@ $green: #00cf26 !default;
 $yellow: #efcc00 !default;
 $orange: #ffcc22 !default;
 $purple: #f92080 !default;
+$new-purple: #8458d4 !default;
 $dark-blue: #00369f !default;
 $green: #00ab37 !default;
 $dark-green: #009f06 !default;
@@ -59,8 +61,8 @@ $darken-3: rgba(#000,.25) !default;
 $darken-4: rgba(#000,.5) !default;
 
 // Links
-$link-color: $blue;
-$link-hover-color: darken($blue, 40%);
+$link-color: tomato;
+$link-hover-color: darken(tomato, 40%);
 
 // Breakpoints
 $breakpoint-md: '(min-width: 52em)';
